@@ -3,6 +3,7 @@ class Xxitter.Models.User extends Backbone.Model
 
   defaults:
     name: null
+    created_at: null
 
 class Xxitter.Collections.UsersCollection extends Backbone.Collection
   model: Xxitter.Models.User
